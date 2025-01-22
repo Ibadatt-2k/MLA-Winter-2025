@@ -11,7 +11,7 @@ def load_key_from_file(filename="secret.bin"):
         return key_file.read()
 
 # Ask the user for the message to encrypt
-message = input("Enter your custom message: ")
+message = input("Enter your custom messageees: ")
 
 # Generate a secret key
 key = Fernet.generate_key()
